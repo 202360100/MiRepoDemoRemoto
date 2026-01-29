@@ -36,7 +36,7 @@ nav ul li {
     float: left;
     margin: 10px;
     list-style: none;
-    line-height: 50px;
+    line-height: 30px;
 }
 
 .clear {
@@ -46,14 +46,14 @@ nav ul li {
 #contenido {
     float: left;
     width: 70%;
-    min-height: 200px;
+    min-height: 270px;
     background: darkgreen;
 }
 
 aside {
     float: left;
     width: calc(30% - 20px);
-    min-height: 200px;
+    min-height: 270px;
     background: darkorange;
     padding: 0px 10px 0px 10px;
 }
