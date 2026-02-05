@@ -1,0 +1,90 @@
+body {
+    margin: 50px;
+    background-image: linear-gradient(0deg, rgba(47, 129, 24, 1) 0%, rgba(221, 224, 0, 1) 100%);
+}
+
+img {
+    padding: 20px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.137);
+}
+
+.imagen-main {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    width: 600px;
+    text-align: center;
+    font-family: console, sans-serif;
+    color: rgb(85, 77, 32);
+    font-size: 70px;
+    transform: rotate(-5deg);
+    text-shadow: 5px 5px 6px rgba(255, 255, 255, 0.945);
+    margin-right: auto;
+}
+
+.intro {
+    background: rgb(49, 48, 48);
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.navigation {
+    font-size: 30px;
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.navigation li {
+    display: inline-block;
+}
+
+.navigation a {
+    color: rgb(158, 61, 4);
+    background: rgba(209, 226, 205, 0.74);
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a:link {
+    background-color: rgba(209, 226, 205, 0.74);
+    color: rgb(158, 61, 4);
+    text-decoration: none;
+    padding: 2px;
+}
+
+a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 94, 0);
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(153, 0, 255);
+}
+
+.div-recetas {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.div-apple {
+    background-color: rgb(114, 27, 27);
+    color: white;
+}
+
+.div-chocolate {
+    background-color: rgb(73, 52, 14);
+    color: white;
+}
+
+.div-fresa {
+    background-color: rgb(218, 108, 154);
+    color: white;
+}
