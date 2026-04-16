@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.pokedex-case {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #c0c0c0; /* Gris metálico tipo Game Boy */
+  padding: 15px;
+  border-radius: 10px 10px 50px 10px; /* Esquina redondeada tipo clásica */
+  box-shadow: 8px 8px 0px #444;
+  width: 300px;
+}
+
+.screen-border {
+  background-color: #444;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.screen {
+  background-color: #9bbc0f; /* Verde pantalla original */
+  padding: 10px;
+  color: #0f380f;
+  image-rendering: pixelated;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pixel-sprite {
+    width: 200px; 
+    height: 200px;
+    
+    margin-top: -30px;
+    margin-bottom: -30px;
+  
+    image-rendering: pixelated; 
+    display: block;
+  }
+
+.stats-grid {
+  width: 100%;
+  font-size: 8px;
+  margin-top: 10px;
+}
+
+.stat-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.stat-label { width: 40px; }
+
+.stat-bar-bg {
+  flex-grow: 1;
+  height: 6px;
+  background: #306230;
+  margin-left: 5px;
+}
+
+.stat-bar-fill {
+  height: 100%;
+  background: #0f380f;
+}
+
+.types-row {
+  margin-top: 15px;
+  display: flex;
+  gap: 5px;
+}
+
+.type-tag {
+  font-size: 7px;
+  border: 1px solid #0f380f;
+  padding: 3px;
+}
+
+.retro-loader {
+  color: #0f380f;
+  font-family: 'Press Start 2P';
+}

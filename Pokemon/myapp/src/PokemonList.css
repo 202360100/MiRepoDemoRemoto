@@ -1,0 +1,23 @@
+.pokemon-grid {
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    padding: 40px;
+    justify-items: center; 
+    align-items: start;
+    width: 100%;
+    max-width: 1400px; 
+    margin: 0 auto;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #000;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #444;
+    border: 3px solid #000;
+  }
