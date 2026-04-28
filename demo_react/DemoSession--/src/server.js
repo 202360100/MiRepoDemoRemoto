@@ -27,7 +27,7 @@ app.post("/login", (req, res) => {
         res.cookie("token", token, {
             httpOnly: true,
             secure: false,
-            sameSite: "strict",
+            sameSite: "Lax",
             maxAge: 360000
         });
         return res.json({message: "Login exitoso"})
@@ -36,9 +36,10 @@ app.post("/login", (req, res) => {
 });
 
 app.get("/perfil", auth, (req, res) => {
+    console.log("Cookie", req.cookie)
     res.json({
         message: "Eres un usuario protegido",
-        user: req.username
+        user: req.user
 
     });
 });
